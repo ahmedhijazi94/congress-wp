@@ -1,0 +1,22 @@
+{
+    "name": "ahmedhijazi/congresso-manager",
+    "description": "Plugin para gerenciamento de congressos para WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Ahmedhijazi\\CongressoManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed Hijazi"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "endroid/qr-code": "^4.0",
+        "mercadopago/dx-php": "^2.0"
+    }
+}
